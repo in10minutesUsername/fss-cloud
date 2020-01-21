@@ -24,3 +24,59 @@ How to scale services
 —scale
 docker-compose up -d --scale database=4
 
+
+
+docker compose
+-------------------------------------------------------------------------------------------------
+Commands:docker-compose -v
+docker-compose --version
+docker-compose version
+
+Create docker compose file at any location on your System:
+    File name should be: docker-compose.yml
+Go to Desktop---> cd ~/Desktop
+mkdir DockerComposeFile
+ cd DockerComposeFile
+create a new file---> touch docker-compose.yml
+
+docker-compose config---> it will validate the docker-compose.yml file
+
+To run the docker-compose.yml file--> docker-compose up 
+
+To stop the docker-compose.yml file  ---> docker-compose down
+
+How to Scale services----> docker-compose up -d --scale database=4
+
+How to Scale down services ---> docker-compose down
+
+to remove unused volume-->docker volume prune
+
+
+#create Volume
+---------------
+docker volume --help
+docker volume create myVolume1
+docker volume ls
+docker volume inspect myvolume1
+to remove volume--> docker volume rm (volume name)
+
+docker run --name MyJenkins1 -v myvol1:/var/jenkins_home -p 8080:8080 -p 50000:50000 jenkinsvol
+
+
+
+
+Edit this file by vi editor--> vi 
+
+
+#VIM Editor
+------------
+install vi editor: sudo apt-get install vim
+
+To open the file using vim editor---> vim docker-compose.yml(file name)
+
+There are two modes in text editor---> 1. Command mode(press Esc)
+                                        2. insert mode(press i)
+
+Once you write the content, you need to save and come out of the test editor---> press  Esc then Shift + Z Z or else Esc, :wq!
+to see the content--> cat fileName
+
