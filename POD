@@ -1,0 +1,8 @@
+kubectl get pods
+kubectl delete pods Name
+
+kubectl deployment
+kubectl describe pods (name of the pod)
+kubectl get deployment
+kubectl describe replicasets (name of the replicaset)
+kubectl delete deployment (deployment Name)
