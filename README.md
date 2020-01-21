@@ -1,11 +1,11 @@
 # fss-cloud
- 1 : Code
+ Step-1 : Code
 You may develop code or download from a existing repo into your favourite IDE
 
-2 : Build the executable
+Step-2 : Build the executable
 Build the executable from the code using the build tool you are familiar with (e.g. ant,maven,gradle etc.)
 
-3 : Create a Dockerfile
+Step-3 : Create a Dockerfile
 Create the docker file using your IDE and put the instructions as required by the container
 
 Step-4 : Build a docker image  - docker build, docker image ls
