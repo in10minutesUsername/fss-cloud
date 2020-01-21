@@ -31,8 +31,8 @@ Step 7 : Optional
 >See the top processes running within a container
 
  
-                       KUBERNETES--K8
-                       ---------------
+# KUBERNETES--K8
+                    
 Step 1 : Docker Images to be used
 Take the cardsapp docker image created in the docker assignment and the mongo db docker image
 
@@ -54,7 +54,8 @@ Undo the last deployment rollout and see that the number of pods are back to 4
 Manually remove a pod and see of the number of pods are maintained as 4
 
 
-                    ##Assessment MiniShift - OpenShift
+
+# Assessment MiniShift - OpenShift
                     
 Step 1: install minishift Follow the steps given in the presentation (Slide 9-10) given during Session 3 (you can find the same as pinned items in fss-cloud-garage slack channel)
 
