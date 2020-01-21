@@ -26,8 +26,8 @@ docker-compose up -d --scale database=4
 
 
 
-docker compose
--------------------------------------------------------------------------------------------------
+# docker compose
+
 Commands:docker-compose -v
 docker-compose --version
 docker-compose version
@@ -52,8 +52,8 @@ How to Scale down services ---> docker-compose down
 to remove unused volume-->docker volume prune
 
 
-#create Volume
----------------
+# create Volume
+
 docker volume --help
 docker volume create myVolume1
 docker volume ls
@@ -68,8 +68,8 @@ docker run --name MyJenkins1 -v myvol1:/var/jenkins_home -p 8080:8080 -p 50000:5
 Edit this file by vi editor--> vi 
 
 
-#VIM Editor
-------------
+# VIM Editor
+
 install vi editor: sudo apt-get install vim
 
 To open the file using vim editor---> vim docker-compose.yml(file name)
