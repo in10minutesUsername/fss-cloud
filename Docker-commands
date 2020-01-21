@@ -1,0 +1,23 @@
+Docker Installation
+  --------------------
+
+2. sudo apt-get update
+3. sudo apt-get install docker.io
+4. To start docker---> sudo systemctl start docker
+5. sudo systemctl status docker
+6. sudo systemctl enable docker(Enable the Service for the boot time)
+7. To install docker compose, run command: sudo apt install docker-compose
+8. To run ngnix container---> sudo docker run -d -p 80:80 nginx
+9: sudo docker ps
+
+
+To Check Docker Version--> docker -v
+
+**We are basically using docker to deploy springboot jar into an image.
+
+** To build a docker image--->sudo docker build -f Dockerfile -t docker-spring-boot . : This will create a image file
+with a new jar.
+
+** To check docker images---> docker images
+
+** To run the docker image---> docker run -p 8085:8085 docker-spring-boot
