@@ -1,0 +1,6 @@
+------------------------------------------------
+Update the System with Latest Packages
+--------------------------------------
+apt-get update
+apt-get install apt-transport-https
+apt-get upgrade
