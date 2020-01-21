@@ -1,0 +1,7 @@
+How To Push and Pull the images in TO Docker Hub
+------------------------------------------------
+We should run the below command befor logging into DockerHub:
+1.sudo apt install gnupg2 pass
+2. docker image ls
+3. docker tag spring-boot-docker javatech1/spring-boot-docker
+4. docker push javatech1/spring-boot-docker
