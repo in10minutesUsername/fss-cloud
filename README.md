@@ -24,6 +24,8 @@ Step 7 : Docker Compose – docker-compose up, docker-compose down
 Create a docker compose file having multiple containers, make use of storage volumes, and run the docker compose 
 file. Test the application. Get inside the containers. Then pull down the containers using docker compose
 
+    Check docker-compose file.
+
 Step 7 : Optional
 >Pull an image from a public/ your private repo
 >Remove an image pulled from docker registry and try to run it
